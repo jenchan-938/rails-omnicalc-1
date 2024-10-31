@@ -7,5 +7,6 @@ class SquarerootrController < ApplicationController
     @number=@number_o.to_i
 
     render ({:template => "layouts/squarerootr"})
+    
   end
 end
